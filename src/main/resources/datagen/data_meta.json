@@ -1,0 +1,27 @@
+{
+  "meta": [
+    {
+      "name": "testName",
+      "dataType": "string",
+      "dataLength": 88,
+      "dataRange": ""
+    },
+    {
+      "name": "testName2",
+      "dataType": "integer",
+      "dataLength": 10000,
+      "dataRange": ""
+    },
+    {
+      "name": "",
+      "dataType": "json",
+      "dataLength": 10000,
+      "dataRange": {
+        "key": "key",
+        "value": "value",
+        "length": 188
+      }
+    }
+  ],
+  "type": "list"
+}
