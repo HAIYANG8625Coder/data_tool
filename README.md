@@ -1,15 +1,16 @@
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10"></script>
-# KAFKA DATA MOCK TOOL
+# DATA TOOL
+# 1.KAFKA DATA MOCK TOOL
 
-# 1. workflow of insert data
+## 1.1. workflow of insert data
 ![img.png](img.png)
 
-# 2. usage
+## 1.2. usage
 
-## 2.1. kafka config  - kafka.properties
+### 1.2.1. kafka config  - kafka.properties
 ```properties
 ## kafka  host
-bootstrap.servers=de-test-kfk.cht.ww5sawfyut0k.bitsvc.io:9092  # your own brokers
+bootstrap.servers=de-test-xxx:9092  # your own brokers
 
 ## topic name
 topic=michael-multiple-partition-test  # your own topic name
@@ -31,7 +32,7 @@ sasl.password=xxxx # your own password
 java.security.auth.login.config=kafka_client_jaas.conf
 ```
 
-## 2.2. data mock plan - data_insert_setting.json
+### 1.2.2. data mock plan - data_insert_setting.json
 ```json
 {
   "count": 100,   // how many data to send to kafka
@@ -40,7 +41,7 @@ java.security.auth.login.config=kafka_client_jaas.conf
 }
 ```
 
-## 2.3. metadata of mock data - data_meta.json
+### 1.2.3. metadata of mock data - data_meta.json
 ```json
 {
   "meta": [
